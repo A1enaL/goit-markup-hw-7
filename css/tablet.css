@@ -129,5 +129,26 @@ color: var(--pressed-state);}
         width: 104px;
         height: 56px;}
 
+    /* footer */
+.footer {
+    text-align: left;}
+
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 24px;}
+
+
+ .subscribe-form {
+            display: flex;
+            gap: 24px;}
+
+.footer-subscribe input {
+    width: 264px;
+    margin-bottom: 0;}
+
+
+
 
     }
