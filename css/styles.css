@@ -69,6 +69,7 @@ body{font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid var(--accent);}
 
 .main-header {
+    position: relative;
     display: flex;
     align-items: center;
 }
@@ -79,6 +80,8 @@ nav {display: flex;
     /* ----------------------------LOGO-------------------------------------------- */
    
     .logo {
+        margin-top: 24px;
+        margin-bottom: 24px;
         font-family: Raleway, sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -95,7 +98,7 @@ nav {display: flex;
 .menu-toggle {
     position: absolute;
     top: 24px;
-    right: 24px; 
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,30 +151,38 @@ nav {display: flex;
 }
 
 .mobile-menu .site-nav {
-    margin: 0;}
+    display: block;
+    margin-top: 40px;
+    margin-left: 0;
+    }
+
+.mobile-menu .site-nav .item:not(:last-child) {margin-bottom: 40px;}
 
 .mobile-menu .site-nav .link {
 padding: 0;
-margin-top: 40px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;}
 
-.mobile-menu .auth-nav {
+
+
+.menu-auth {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 48px;}
+    margin-top: 284px;
+    gap: 40px;}
 
 
-.mobile-menu .auth-nav .tel {
+.menu-auth .tel {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     color: var(--primary-brand);
     padding: 0;
-    /* margin-bottom: 40px; */
-}
-.mobile-menu .auth-nav .mail {
+    }
+
+.menu-auth .mail {
+color: var(--text);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
