@@ -15,6 +15,18 @@
     .features .item {
         flex-basis: calc((100% - 24px) / 2);}
 
+  /* -----------------------SECTION TEAM------------------------------------------ */
+
+/* .container-sm {width: 552px;} */
+
+.team {
+    column-gap: 24px;}
+
+    .worker {
+        flex-basis: calc((100% - 24px) / 2);
+       }
+    
+
      /* --------------------------CUSTOMERS---------------------------------------------- */
     
     
