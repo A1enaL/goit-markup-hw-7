@@ -218,17 +218,8 @@ nav {display: flex;
 /* --------------------------SECTION PROJECT--------------------------------------- */
     
 .section-project {
-        text-align: center;
-        padding-bottom: 120px;}
+        display: none;}
 
-    .section-project .title{
-        margin-bottom: 72px;
-    }
-    .project {display: flex;
-    flex-wrap: wrap;
-    gap: 24px;}
-    .project-item {flex-basis: calc((100% - 48px) / 3);
-    }
 
     /* -----------------------SECTION TEAM------------------------------------------ */
    
