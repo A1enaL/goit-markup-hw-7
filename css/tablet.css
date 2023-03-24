@@ -140,7 +140,12 @@ color: var(--pressed-state);}
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    column-gap: 24px;}
+    gap: 24px;}
+
+.footer-social{
+    margin-top: 0;
+    margin-bottom: 0;
+   }
 
 
  .subscribe-form {
