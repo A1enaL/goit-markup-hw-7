@@ -129,7 +129,7 @@
             padding-top: 120px;
             padding-bottom: 120px;}
 
-        .container-sm {width: auto;}
+        .section-team .container-sm {width: auto;}
     
         .team {
             gap: 24px;}
@@ -145,6 +145,8 @@
         text-align: center;
         padding-top: 130px;
         padding-bottom: 120px;}
+
+    .section-customer .container-sm {width: auto;}
     
     .section-customer .title {
         margin-bottom: 72px;}
@@ -184,6 +186,8 @@
     /* footer */
     .footer {
         padding: 100px 0;}
+
+    .footer .container-sm {width: auto;}
 
     .main-footer {
             flex-wrap: nowrap;

@@ -83,19 +83,20 @@ color: var(--pressed-state);}
 
   /* -----------------------SECTION TEAM------------------------------------------ */
 
-/* .container-sm {width: 552px;} */
+.section-team .container-sm {width: 552px;}
 
 .team {
     column-gap: 24px;}
 
     .worker {
-        flex-basis: calc((100% - 24px) / 2);
+        flex-basis: calc((552px - 24px) / 2);
        }
     
 
      /* --------------------------CUSTOMERS---------------------------------------------- */
     
-    
+    .section-customer .container-sm {width: 552px;}
+
     .section-customer .title {
         margin-bottom: 72px;}
     
@@ -132,6 +133,8 @@ color: var(--pressed-state);}
     /* footer */
 .footer {
     text-align: left;}
+
+.footer .container-sm {width: 552px;}
 
 .main-footer {
     display: flex;
