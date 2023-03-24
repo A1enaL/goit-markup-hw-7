@@ -5,7 +5,24 @@
         max-width: 768px;
         }
 
+        .menu-toggle {
+            display: none;}
+ /* -----------------------------HERO-------------------------------------------- */
+        
+ .hero { 
+    max-width: 768px;}
+
+.hero .title {
+    margin-bottom: 40px;
+    max-width: 494px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;}
+
+
      /* ----------------------FEAUTERS-----------------------------------------  */   
+
+    
     
     .features{
         display: flex;

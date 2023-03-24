@@ -91,47 +91,15 @@
         /* -----------------------------HERO-------------------------------------------- */
         
         .hero {
-        background-color: var(--dark);
-        text-align: center;
         padding-top: 188px;
         padding-bottom: 188px;    
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1440px;
-    
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;}
+        max-width: 1440px;}
         
     
         .hero .title {
             margin-bottom: 48px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 494px;
-    
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 1.07;
-            text-align: center;
-            color:var(--primary-white);}
-        
-        .button {
-            display: inline-block;
-            border: none;
-            border-radius: 4px;
-            padding: 16px 32px;
-            font-family: inherit; background: var(--light); color: var(--primary-brand); cursor: pointer; font-weight: 500;font-size: 16px; line-height: 1.5;}
-    
-        .button.primary {
-            background-color: var(--primary-brand);
-            color: var(--primary-white);
-    
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-    
-            button.primary:hover, .button.primary:focus, .button.primary:active {background-color: var(--pressed-state);
-            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+         }
+       
     
        
         /* h2 */
