@@ -148,6 +148,7 @@ nav {display: flex;
 .mobile-menu {
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .mobile-menu .site-nav {
@@ -171,11 +172,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .site-nav .link.current {color: var(--pressed-state);}
 
 
+.menu-contact {margin-top: auto;}
 
 .menu-auth {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 185px;
     gap: 40px;}
 
 
@@ -195,6 +196,7 @@ line-height: 1.2;
 padding: 0;}
 
 .mobile-menu .social-list {
+height: 40px;
 margin-top: 48px;    
 margin-right: auto;
 margin-left: auto;}
@@ -284,8 +286,8 @@ margin-left: auto;}
     
      
 
-    .features .item:not(:last-child) {
-        margin-bottom: 72px;}  
+        @media screen and (max-width:767px) {.features .item:not(:last-child) {
+        margin-bottom: 72px;}  }
 
     .features-background {
         display: none;
@@ -314,14 +316,13 @@ margin-left: auto;}
         padding-bottom: 96px;
         background-color: var(--light);}
 
-    @media screen and (max-width:767px) { .section-team .container-sm  {width: 264px;}
-    }
     
     .section-team .title {margin-bottom: 72px;}
 
     .team {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         row-gap: 72px;}
 
     .worker {
@@ -419,6 +420,8 @@ color: var(--pressed-state);}
 .footer .logo {
     color: var(--light);}
 .footer .text {
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
     margin-top: 16px;
     width: 264px;
